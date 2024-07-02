@@ -1,3 +1,11 @@
+"""
+This file was modified from its original version obtained from Dattrove.
+
+Changes Made:
+- Reduced the line punctuation threshold value.
+- Updated the list of stop characters, separating them into end and start stop characters based on their contextual usage.
+"""
+
 from datatrove.pipeline.filters.base_filter import BaseFilter
 from datatrove.pipeline.filters.gopher_repetition_filter import find_duplicates
 from datatrove.pipeline.writers.disk_base import DiskWriter

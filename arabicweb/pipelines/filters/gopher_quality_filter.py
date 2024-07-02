@@ -1,3 +1,11 @@
+"""
+This file has been modified from its original version obtained from Dattrove.
+
+Changes Made:
+- Raised the maximum ellipsis lines ratio.
+- Updated the stop words list to better suit the Arabic data content and added the path as an argument.
+"""
+
 import numpy as np
 
 from datatrove.data import Document

@@ -1,3 +1,12 @@
+"""
+This file was modified from its original version obtained from Dattrove.
+The changes were made in the C4BadWordsFilter class.
+
+Changes Made:
+- Added a directory for custom banned words containing Arabic and English bad words.
+- Updated how the language is retrieved from the metadata.
+"""
+
 import heapq
 import re
 

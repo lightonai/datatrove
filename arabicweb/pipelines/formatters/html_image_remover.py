@@ -4,7 +4,6 @@ from datatrove.data import Document
 
 
 class ImageHtmlRemover(BaseFormatter):
-
     name = " ⚞ HTML Image placeholder remover"
 
     def __init__(self):
