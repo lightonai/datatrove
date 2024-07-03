@@ -36,7 +36,7 @@ def run_pipeline():
             exclusion_writer=JsonlWriter(output_folder=f"{S3_FILTERED_PATH}/{PART}/removed-lang"),
         ),
         GopherQualityFilter(
-            max_ellipsis_lines_ratio=0.3,
+            max_ellipsis_lines_ratio=0.4,
             stop_words_file_path="",
             exclusion_writer=JsonlWriter(output_folder=f"{S3_FILTERED_PATH}/{PART}/removed-gopher"),
         ),

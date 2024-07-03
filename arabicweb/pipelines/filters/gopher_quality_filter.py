@@ -2,7 +2,7 @@
 This file has been modified from its original version obtained from Dattrove.
 
 Changes Made:
-- Raised the maximum ellipsis lines ratio.
+- Raised the maximum ellipsis lines ratio, this is done within the crawl_dump pipeline.
 - Updated the stop words list to better suit the Arabic data content and added the path as an argument.
 """
 
@@ -28,7 +28,7 @@ class GopherQualityFilter(BaseFilter):
         max_avg_word_length: int | None = 10,
         max_symbol_word_ratio: float | None = 0.1,
         max_bullet_lines_ratio: float | None = 0.9,
-        max_ellipsis_lines_ratio: float | None = 0.4,
+        max_ellipsis_lines_ratio: float | None = 0.3,
         max_non_alpha_words_ratio: float | None = 0.8,
         min_stop_words: int | None = 2,
         stop_words: list[str] | None = None,
